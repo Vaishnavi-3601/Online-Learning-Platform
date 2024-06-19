@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+
+.navbar .logo {
+    margin-right: auto; /* Pushes the logo to the left */
+}
+
+.navbar ul.links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul.links li {
+    margin: 0 10px;
+}
+
+.navbar ul.links li a {
+    color: #c0a27f; /* Text color */
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul.links li a:hover {
+    color: #ffffff; /* Hover text color */
+}
+
+#search_bar {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+}
+
+#logo {
+    height: 40px; /* Adjust logo height as needed */
+}
