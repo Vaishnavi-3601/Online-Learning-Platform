@@ -7,7 +7,7 @@
 }
 
 .navbar .logo {
-    margin-right: auto; /* Pushes the logo to the left */
+    margin-right: auto; 
 }
 
 .navbar ul.links {
@@ -25,7 +25,8 @@
 .navbar ul.links li a {
     color: #c0a27f; /* Text color */
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
     transition: color 0.3s ease;
 }
 
@@ -34,5 +35,5 @@
 }
 
 #logo {
-    height: 40px; /* Adjust logo height as needed */
+    height: 60px; /* Adjust logo height as needed */
 }
