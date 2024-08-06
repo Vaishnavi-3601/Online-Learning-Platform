@@ -1,32 +1,29 @@
-#fff8e7
-
-*{
+* {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
 }
-body{
+
+body {
     margin: 0;
     width: 100%;
 }
-li{
+
+li {
     list-style: none;
 }
-a{
+a {
     text-decoration: none;
 }
-
-
-
-
-.top{
+.top {
     position: relative;
 }
-.top img{
-    width: 100%; 
-    height: 700px; 
-    margin-top:1em;
+.top img {
+    width: 100%;
+    height: 800px;
+    margin-top: 5em;
     position: relative;
 }
-.top .leftsec{
+.top .leftsec {
     position: absolute;
     top: 7em;
     padding: 50px;
@@ -35,87 +32,89 @@ a{
     flex-direction: column;
     align-items: center;
 }
-.leftsec h1{
+.leftsec h1 {
     font-size: 2.2em;
-    color: #C19A6B; 
+    color: #C19A6B;
     display: flex;
     text-align: center;
 }
-.leftsec input{
-    background-color: #C19A6B; border: #C19A6B;
+.leftsec input {
+    background-color: #C19A6B;
+    border: #C19A6B;
     color: white;
     padding: 10px 20px;
     text-align: center;
     font-size: 16px;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
-.rightsec{
+.rightsec {
     position: absolute;
     right: 0em;
     top: 7em;
     padding: 50px;
     max-width: 450px;
 }
-.rightsec .para{
+.rightsec .para {
     display: flex;
     flex-direction: row;
 }
-.rightsec p{
+.rightsec p {
     font-size: 1.3em;
     justify-content: space-between;
-    color: #C19A6B; 
+    color: #C19A6B;
     text-align: center;
 }
-.rightsec h1{
+.rightsec h1 {
     font-size: 2.2em;
-    color: #C19A6B; 
+    color: #C19A6B;
     text-align: center;
 }
-.course-main p{
+
+
+.course-main{
+    padding-top: 100px;
+}
+.course-main p {
     font-size: 2.5em;
     justify-content: space-between;
-    color: #c0a27f; 
+    color: #c0a27f;
     text-align: center;
 }
-.course-main b{
+.course-main b {
     color: #73552f;
 }
 .courses {
     display: flex;
     justify-content: center;
 }
-
 .main {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(130, 95, 68, 0.778);
     margin: 20px;
     padding: 20px;
-    width: 300px; 
+    width: 300px;
     text-align: center;
 }
-.main .name{
+.main .name {
     height: 50px;
 }
 .main .name h3 {
     margin-top: 0;
     color: #C19A6B;
 }
-
 .course-img {
     height: 150px;
     margin-top: 10px;
 }
-
 .course-img img {
-    width: 100%; 
+    width: 100%;
     height: 100%;
     border-radius: 5px;
-    object-fit: cover; 
+    object-fit: cover;
     padding: 4px;
     border: 1px solid #C19A6B;
 }
-
 button {
     background-color: #C19A6B;
     border: none;
@@ -131,69 +130,72 @@ button {
 }
 
 /*Plan and pricing*/
-h2{
+#price {
+    width: 100vw;
+    padding-top: 100px;
+}
+h2 {
     font-size: 3em;
-    color: #C19A6B; 
-    display: flex;
-    justify-content: center;
+    color: #73552f;
+    text-align: center;
 }
-h5{
-    color: #C19A6B;
-    display: flex;
-    justify-content: center;
+h5 {
+    font-size: 1.2em;
+    color: #73552f;
+    text-align: center;
 }
-.name1 h5{
-    color: #fff; 
+.name1 h5 {
+    color: #fff;
     display: flex;
     text-align: left;
     justify-content: left;
 }
 .plans {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
-
 .mainplan {
-background-color: #fff;
-border:solid 1px #C19A6B;
-margin: 20px;
-width: 350px;
-height: 550px;
-border-radius: 5px;
+    background-color: #fff;
+    border: solid 1px #C19A6B;
+    margin: 20px;
+    width: 390px;
+    height: 650px;
+    border-radius: 5px;
 }
-.mainplan .name1{
-padding:5px 0 2px 10px;
-height: max-content;
-background-color: #C19A6B;
+.mainplan .name1 {
+    padding: 5px 0 2px 10px;
+    height: max-content;
+    background-color: #C19A6B;
 }
 .mainplan .name1 h3 {
-margin-top: 0;
-height: 6px;
-color: #fff;
+    margin-top: 0;
+    height: 6px;
+    color: #fff;
 }
 .plan-info {
-height: 150px;
-margin-top: 10px;
-padding-left: 10px;
+    height: 150px;
+    margin-top: 10px;
+    padding-left: 10px;
 }
-.plan-info .plan-head{
-height: 60px;
+.plan-info .plan-head {
+    height: 60px;
 }
 .plan-info button {
-background-color: #C19A6B;
-border: none;
-width: 90%;
-color: white;
-padding: 10px 20px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-border-radius: 5px;
-cursor: pointer;
-margin-top: 10px;
+    background-color: #C19A6B;
+    border: none;
+    width: 90%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
 }
-.plan-info1 p{
-font-size: smaller;
-line-height: 1px;
+.plan-info1 p {
+    font-size: smaller;
+    line-height: 2px;
 }
+
+/*Contact us*/
